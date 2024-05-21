@@ -34,3 +34,5 @@ print(data)
 
 data = pad_sequences(sequences, maxlen=4) #RNN pays more attention to end of sentence
 print(data)
+
+len_seq = [len(i) for i in sequences].sort()
